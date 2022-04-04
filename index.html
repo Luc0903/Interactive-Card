@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Interactive Card</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="card">
+		<div class="card__face--front">
+			<div class="logo">
+				<div class="logo__inner"></div>	
+			</div>
+			<div class="title">
+				<h2>How did we do?</h2>
+			</div>
+			<div class="text">
+				<p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+			</div>
+			<div class="buttons">
+				<div class="circle">
+					<input type="button" value="1">
+				</div>
+				<div class="circle">
+					<input type="button" value="2">
+				</div>
+				<div class="circle">
+					<input type="button" value="3">
+				</div>
+				<div class="circle">
+					<input type="button" value="4">
+				</div>
+				<div class="circle">
+					<input type="button" value="5">
+				</div>
+			</div>
+			<div class="submit__button">
+				<input type="submit" value="SUBMIT" class="btn__submit">
+			</div>
+		</div>
+		<div class="card__face--back">
+			<div class="real__image__container">
+				<div class="image__container">
+					<div class="image"></div>
+				</div>
+			</div>
+			<div class="radius__rec">
+				<p>You selected <span class="button__pressed"></span> out of 5</p>
+			</div>
+			<div class="thanks__rec">
+				<p>Thank you!</p>
+			</div>
+			<div class="final__text">
+				<p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+			</div>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
